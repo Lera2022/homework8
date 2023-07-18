@@ -744,11 +744,6 @@ summary::-webkit-details-marker {
     margin-top: 48px;
 }
 
-.button-wrap:hover {
-    background-color: #FF6A6A;
-    color: white;
-}
-
 .footer-top {
     background: url(img/footer-bg.jpg) bottom no-repeat;
     background-color: #f8f8f828;
