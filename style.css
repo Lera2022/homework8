@@ -735,6 +735,130 @@ summary::-webkit-details-marker {
     align-items: center;
 }
 
+.button-wrap {
+    display: flex;
+    justify-content: center;
+    color: #F26376;
+    border: #FF6A6A;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.footer-top {
+    background: url(img/footer-bg.jpg) bottom no-repeat;
+    background-color: #f8f8f828;
+    height: 448px;
+    background-size: cover;
+}
+
+.footer-top-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rewiew {
+    padding-top: 97px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+    width: 359.45px;
+}
+
+.subscribe {
+    padding-top: 150px;
+    width: 557px;
+}
+
+.photo {
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.subscribe-top {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 167.2%;
+    text-align: center;
+    color: #222224;
+}
+
+.subscribe-bottom {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #222224;
+    margin-bottom: 32px;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-mail {
+    border: none;
+    font-weight: 400;
+    text-align: start;
+    color: #222224;
+    background-color: #E1E1E1;
+    width: 256px;
+    height: 49px;
+    border-radius: 25px 0 0 25px;
+    padding-left: 22px;
+}
+
+.subscribe-button {
+    height: 49px;
+    border: none;
+    font-weight: 400;
+    display: flex;
+    color: #FFFFFF;
+    background: #F16D7F;
+    width: 100px;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    border-radius: 0 25px 25px 0;
+}
+
+.footer-bottom-wrapper {
+    background: #222224;
+    height: 79px;
+    padding-top: 30px;
+}
+
+.copy {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-social-list {
+    display: flex;
+    list-style: none;
+}
+
+.media link svg:hover svg path {
+    stroke: #F16D7F;
+    fill: #F16D7F;
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.footer-social-item {
+    margin-right: 7px;
+}
+
 @media (max-width: 1024px) {
     .center {
         padding-left: calc(50% - 368px);
@@ -762,6 +886,16 @@ summary::-webkit-details-marker {
     }
     .product-box__content {
         gap: 16px;
+    }
+    .footer-top {
+        height: 614px;
+    }
+    .footer-top-flex {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .subscribe {
+        padding-top: 48px;
     }
 }
 
@@ -801,5 +935,8 @@ summary::-webkit-details-marker {
         width: 100%;
         height: 100%;
         object-fit: cover;
+    }
+    .footer-top {
+        background: url(img/footer-bg-small.jpg);
     }
 }
