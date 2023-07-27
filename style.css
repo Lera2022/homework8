@@ -13,6 +13,7 @@ img {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 summary {
@@ -20,6 +21,10 @@ summary {
 }
 summary::-webkit-details-marker {
   display: none;
+}
+
+li {
+  list-style-type: none;
 }
 
 .center {
@@ -194,9 +199,6 @@ summary::-webkit-details-marker {
   color: #F16D7F;
 }
 
-.product-box {
-  padding-bottom: 128px;
-}
 .product-box__heading {
   font-style: normal;
   font-weight: 400;
@@ -220,6 +222,7 @@ summary::-webkit-details-marker {
   grid-template-columns: repeat(auto-fit, 360px);
   justify-content: center;
   gap: 30px;
+  margin-bottom: 48px;
 }
 
 .product {
@@ -286,6 +289,34 @@ summary::-webkit-details-marker {
   font-size: 16px;
   line-height: 19px;
   color: #F16D7F;
+}
+
+.pages {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  width: 284px;
+  height: 44px;
+  border: 1px solid #EBEBEB;
+  padding: 12px 15px 13px 16px;
+  box-sizing: border-box;
+  margin: 0 auto 96px auto;
+}
+.pages__numbers {
+  width: 203px;
+  text-align: justify;
+  color: #C4C4C4;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.pages__numbers__list {
+  display: flex;
+  justify-content: space-between;
+}
+.pages__number:hover {
+  color: #EF5B70;
 }
 
 .advantages {
