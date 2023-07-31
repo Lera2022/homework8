@@ -881,6 +881,176 @@ li {
     margin-right: 7px;
 }
 
+.cart {
+    &__title {
+        color: #F16D7F;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        background-color: #F8F3F4;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        margin-bottom: 96px;
+    }
+    &__content {
+        display: flex;
+        gap: 128px;
+    }
+    &__left {
+        max-width: 652px;
+        margin-bottom: 128px;
+    }
+    &__card {
+        margin-bottom: 40px;
+        display: flex;
+        box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
+    }
+    &__img {
+        width: 262px;
+    }
+    &__dsc {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 390px;
+        padding: 22px 22px 62px 31px;
+        box-sizing: border-box;
+        color: #575757;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        &__top {
+            display: flex;
+            justify-content: space-between;
+            &__close {
+                margin-top: 6px;
+            }
+        }
+        &__name {
+            color: #222;
+            font-size: 24px;
+            margin-bottom: 42px;
+        }
+        &__price {
+            color: #EF5B70;
+        }
+        &__choice {
+            color: #6F6E6E;
+        }
+        &__quantity {
+            width: 44px;
+            color: #656565;
+            font-size: 18px;
+            text-align: center;
+            &__box {
+                display: flex;
+                gap: 24px;
+            }
+        }
+    }
+    &__buttons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 72px;
+    }
+    &__button {
+        display: block;
+        padding: 17px 40px;
+        color: #000;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        background-color: #fff;
+        border: 1px solid #A4A4A4;
+    }
+    &__right {
+        max-width: 360px;
+        &__form {
+            display: flex;
+            flex-direction: column;
+            gap: 21px;
+            color: #222;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            margin-bottom: 57px;
+        }
+        &__input {
+            padding: 12px 0 16px 17px;
+            font-size: 13px;
+        }
+        &__active {
+            color: #B1B1B1;
+        }
+        &__button {
+            color: #4A4A4A;
+            font-size: 11px;
+            padding: 10px 15px 12px;
+            background-color: white;
+            border-width: 1px;
+        }
+    }
+}
+
+.total {
+    background-color: #F5F3F3;
+    padding: 39px 34px;
+    &__subtotal {
+        display: flex;
+        justify-content: space-between;
+        width: 108px;
+        color: #4A4A4A;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 184px;
+        margin-bottom: 12px;
+    }
+    &__grandtotal {
+        display: flex;
+        justify-content: space-between;
+        color: #222;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-left: 119px;
+        margin-bottom: 21px;
+        &__price {
+            color: #F16D7F;
+            font-weight: 700;
+        }
+    }
+    &__band {
+        background-color: #E2E2E2;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        width: 275px;
+        height: 1px;
+        margin-bottom: 17px;
+    }
+    &__button {
+        display: block;
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        background-color: #F16D7F;
+        padding: 15px 40px 16px;
+        width: 273px;
+        box-sizing: border-box;
+    }
+}
+
 @media (max-width: 1024px) {
     .center {
         padding-left: calc(50% - 368px);
