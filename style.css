@@ -275,6 +275,10 @@ li {
   font-size: 13px;
   line-height: 16px;
   color: #000000;
+  transition: all 1s;
+}
+.product__heading:hover {
+  color: #F16D7F;
 }
 .product__text {
   font-style: normal;
@@ -782,10 +786,17 @@ li {
 .cart__dsc__top__close {
   margin-top: 6px;
 }
+.cart__dsc__link {
+  transition: all 1s;
+}
+.cart__dsc__link:hover .cart__dsc__name {
+  color: #EF5B70;
+}
 .cart__dsc__name {
   color: #222;
   font-size: 24px;
   margin-bottom: 42px;
+  transition: all 1s;
 }
 .cart__dsc__price {
   color: #EF5B70;
@@ -819,6 +830,12 @@ li {
   line-height: normal;
   background-color: #fff;
   border: 1px solid #A4A4A4;
+  transition: all 1s;
+}
+.cart__button:hover {
+  background-color: #F16D7F;
+  color: #FFF;
+  font-weight: 900;
 }
 .cart__right {
   max-width: 360px;
@@ -847,6 +864,12 @@ li {
   padding: 10px 15px 12px;
   background-color: white;
   border-width: 1px;
+  transition: all 1s;
+}
+.cart__right__button:hover {
+  background-color: #F16D7F;
+  color: #FFF;
+  font-weight: 900;
 }
 
 .total {
@@ -901,6 +924,12 @@ li {
   padding: 15px 40px 16px;
   width: 273px;
   box-sizing: border-box;
+  transition: all 1s;
+}
+.total__button:hover {
+  background-color: #FFF;
+  color: #F16D7F;
+  font-weight: 900;
 }
 
 @media (max-width: 1024px) {
