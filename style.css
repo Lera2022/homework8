@@ -932,6 +932,90 @@ li {
   font-weight: 900;
 }
 
+.registration__content {
+  display: flex;
+  gap: 128px;
+}
+.registration__right {
+  color: #000;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.form__subheading {
+  color: #222;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.form__input {
+  color: #B1B1B1;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding: 13px 17px 16px;
+  width: 288px;
+  margin-bottom: 20px;
+}
+.form__gender {
+  font-size: 11px;
+  font-weight: 300;
+  margin-top: 12px;
+  margin-bottom: 33px;
+}
+.form__label {
+  margin-left: 6px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+.form__dsc {
+  color: #B1B1B1;
+  font-size: 13px;
+  font-weight: 300;
+  margin-top: -4px;
+  margin-bottom: 39px;
+}
+.form__button {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 16px 20px 17px 29px;
+  background-color: #F16D7F;
+  display: flex;
+  justify-content: space-between;
+  width: 167px;
+  align-items: center;
+  border-color: #F16D7F;
+  margin-bottom: 96px;
+  transition: all 1s;
+}
+.form__button__icon path {
+  transition: all 1s;
+}
+.form__button:hover {
+  background-color: #fff;
+  font-weight: bold;
+  color: #F16D7F;
+}
+.form__button:hover .button__icon path {
+  fill: #F16D7F;
+}
+
+.loyalty__heading {
+  font-weight: 300;
+  margin-bottom: 22px;
+}
+.loyalty__dsc {
+  margin-bottom: 21px;
+}
+.loyalty__marker {
+  margin-right: 22px;
+}
+.loyalty__li {
+  margin-bottom: 16px;
+}
+
 @media (max-width: 1024px) {
   .center {
     padding-left: calc(50% - 368px);
