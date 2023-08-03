@@ -1193,21 +1193,50 @@ li {
         font-size: 24px;
         line-height: 29px;
     }
-    .sale__item_big {
-        min-height: 116px;
+    .sale {
+        padding-top: 19px;
+        padding-bottom: 155px;
+        gap: 20px;
+        &__item_big {
+            min-height: 116px;
+        }
     }
+    .filter-sort {
+        padding-top: 24px;
+    }
+    .sort {}
     .product-box__content {
         gap: 16px;
+        margin-top: 74px;
+        margin-bottom: 32px;
+    }
+    .button-wrap {
+        margin-bottom: 65px;
+    }
+    .advantages {
+        padding-top: 48px;
+        padding-bottom: 64px;
+        gap: 48px;
+        &__item {
+            gap: 28px;
+        }
     }
     .footer-top {
         height: 614px;
+        background-image: url(img/footer-bg-medium.jpg);
     }
     .footer-top-flex {
         justify-content: center;
         flex-wrap: wrap;
     }
+    .rewiew {
+        padding-top: 64px;
+    }
     .subscribe {
         padding-top: 48px;
+        &-bottom {
+            margin-bottom: 27px;
+        }
     }
 }
 
