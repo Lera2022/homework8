@@ -570,6 +570,8 @@ li {
 }
 
 .sort {
+    position: absolute;
+    top: 13px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -577,6 +579,10 @@ li {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    &-box {
+        position: relative;
+        width: 400px;
+    }
     &__summary {
         color: #6F6E6E;
         font-size: 14px;
@@ -1021,8 +1027,6 @@ li {
 }
 
 .total {
-    background-color: #F5F3F3;
-    padding: 39px 34px;
     &__subtotal {
         display: flex;
         justify-content: space-between;
@@ -1203,15 +1207,86 @@ li {
     }
     .filter-sort {
         padding-top: 24px;
+        margin-bottom: 15px;
+        gap: 52px;
     }
-    .sort {}
+    .filter {
+        padding: 0;
+    }
+    .sort {
+        top: 0;
+        &__summary {
+            margin-bottom: 0;
+        }
+    }
     .product-box__content {
         gap: 16px;
-        margin-top: 74px;
-        margin-bottom: 32px;
+        margin-bottom: 41px;
+        margin-top: 0;
+    }
+    .product-box__product {
+        margin-bottom: 129px;
+    }
+    .slider {
+        height: 624px;
+    }
+    .content {
+        margin-top: 0;
+        &__line-big {
+            margin-bottom: 130px;
+        }
     }
     .button-wrap {
         margin-bottom: 65px;
+    }
+    .pages {
+        margin-bottom: 63px;
+    }
+    .product__sort {
+        top: 423px;
+    }
+    .cart {
+        &__content {
+            display: block;
+        }
+        &__left {
+            max-width: 734px;
+            margin-bottom: 64px;
+        }
+        &__card {
+            width: 734px;
+        }
+        &__dsc {
+            width: 472px;
+        }
+        &__buttons {
+            margin-top: 62px;
+            justify-content: center;
+            gap: 48px;
+        }
+        &__right {
+            max-width: 734px;
+            display: flex;
+            gap: 15px;
+            &__form {
+                width: 360px;
+            }
+            &__button {
+                box-sizing: border-box;
+                width: 106px;
+                padding: 10px 14px 12px 15px;
+            }
+        }
+        .total {
+            max-height: 214px;
+            padding-top: 78px;
+            padding-bottom: 42px;
+            box-sizing: border-box;
+            &__box {
+                background-color: #F5F3F3;
+                padding: 39px 34px;
+            }
+        }
     }
     .advantages {
         padding-top: 48px;
