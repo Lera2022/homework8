@@ -800,6 +800,7 @@ li {
 }
 .cart__dsc__name {
   color: #222;
+  font-weight: 400;
   font-size: 24px;
   margin-bottom: 42px;
   transition: all 1s;
@@ -857,9 +858,27 @@ li {
   line-height: normal;
   margin-bottom: 57px;
 }
+.cart__right__title {
+  color: #222;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-bottom: 21px;
+}
+.cart__right__title_small {
+  color: #222;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-bottom: 21px;
+  display: none;
+}
 .cart__right__input {
   padding: 12px 0 16px 17px;
   font-size: 13px;
+  border: 1px solid #4A4A4A;
 }
 .cart__right__active {
   color: #B1B1B1;
@@ -878,6 +897,10 @@ li {
   font-weight: 900;
 }
 
+.total__box {
+  background-color: #F5F3F3;
+  padding: 39px 43px 42px 44px;
+}
 .total__subtotal {
   display: flex;
   justify-content: space-between;
@@ -1111,8 +1134,15 @@ li {
     display: flex;
     gap: 15px;
   }
+  .cart__right__title {
+    display: none;
+  }
+  .cart__right__title_small {
+    display: block;
+  }
   .cart__right__form {
     width: 360px;
+    margin-bottom: 128px;
   }
   .cart__right__button {
     box-sizing: border-box;
@@ -1128,6 +1158,16 @@ li {
   .cart .total__box {
     background-color: #F5F3F3;
     padding: 39px 34px;
+  }
+  .title__registration {
+    margin-bottom: 40px;
+  }
+  .registration__content {
+    gap: 22px;
+  }
+  .registration__right {
+    font-size: 16px;
+    font-weight: 300;
   }
   .advantages {
     padding-top: 48px;

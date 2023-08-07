@@ -946,6 +946,7 @@ li {
         }
         &__name {
             color: #222;
+            font-weight: 400;
             font-size: 24px;
             margin-bottom: 42px;
             transition: all 1s;
@@ -1003,9 +1004,27 @@ li {
             line-height: normal;
             margin-bottom: 57px;
         }
+        &__title {
+            color: #222;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            padding-bottom: 21px;
+        }
+        &__title_small {
+            color: #222;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            padding-bottom: 21px;
+            display: none;
+        }
         &__input {
             padding: 12px 0 16px 17px;
             font-size: 13px;
+            border: 1px solid #4A4A4A;
         }
         &__active {
             color: #B1B1B1;
@@ -1027,6 +1046,10 @@ li {
 }
 
 .total {
+    &__box {
+        background-color: #F5F3F3;
+        padding: 39px 43px 42px 44px;
+    }
     &__subtotal {
         display: flex;
         justify-content: space-between;
@@ -1268,8 +1291,15 @@ li {
             max-width: 734px;
             display: flex;
             gap: 15px;
+            &__title {
+                display: none;
+                &_small {
+                    display: block;
+                }
+            }
             &__form {
                 width: 360px;
+                margin-bottom: 128px;
             }
             &__button {
                 box-sizing: border-box;
@@ -1286,6 +1316,18 @@ li {
                 background-color: #F5F3F3;
                 padding: 39px 34px;
             }
+        }
+    }
+    .title__registration {
+        margin-bottom: 40px;
+    }
+    .registration {
+        &__content {
+            gap: 22px;
+        }
+        &__right {
+            font-size: 16px;
+            font-weight: 300;
         }
     }
     .advantages {
