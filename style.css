@@ -189,6 +189,10 @@ li {
   line-height: 19px;
   text-align: center;
   color: #FFFFFF;
+  transition: all 1s;
+}
+.sale__text:hover {
+  color: #F16D7F;
 }
 .sale__heading {
   font-style: normal;
@@ -197,6 +201,10 @@ li {
   line-height: 29px;
   text-align: center;
   color: #F16D7F;
+  transition: all 1s;
+}
+.sale__heading:hover {
+  color: white;
 }
 
 .product-box__heading {
@@ -236,6 +244,7 @@ li {
 }
 .product__img {
   width: 100%;
+  transition: all 1s;
 }
 .product__add {
   position: absolute;
@@ -253,6 +262,7 @@ li {
   justify-content: center;
   gap: 11px;
   color: #FFFFFF;
+  transition: all 1s;
 }
 .product__add:hover {
   box-shadow: 0 0 5px #fff;
@@ -638,6 +648,7 @@ li {
   background-color: rgba(248, 248, 248, 0.1568627451);
   height: 448px;
   background-size: cover;
+  background-position: bottom;
 }
 .footer-top-flex {
   display: flex;
@@ -692,6 +703,8 @@ li {
   height: 49px;
   border-radius: 25px 0 0 25px;
   padding-left: 22px;
+  padding-right: 22px;
+  outline: none;
 }
 .subscribe-button {
   height: 49px;
@@ -704,6 +717,11 @@ li {
   box-sizing: border-box;
   padding: 15px 20px;
   border-radius: 0 25px 25px 0;
+  transition: all 1s;
+}
+.subscribe-button:hover {
+  color: #F16D7F;
+  background-color: white;
 }
 
 .footer-bottom-wrapper {
@@ -729,12 +747,19 @@ li {
   list-style: none;
 }
 
+.icon-box {
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-box:hover {
+  background-color: #F16D7F;
+}
 .icon:hover path {
   fill: white;
-}
-
-.icon:hover {
-  fill: #F16D7F;
 }
 
 .visually-hidden {
@@ -791,6 +816,9 @@ li {
 }
 .cart__dsc__top__close {
   margin-top: 6px;
+}
+.cart__dsc__top__close:hover path {
+  fill: #F16D7F;
 }
 .cart__dsc__link {
   transition: all 1s;

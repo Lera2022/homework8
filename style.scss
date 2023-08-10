@@ -234,6 +234,10 @@ li {
         line-height: 19px;
         text-align: center;
         color: #FFFFFF;
+        transition: all 1s;
+        &:hover {
+            color: #F16D7F;
+        }
     }
     &__heading {
         font-style: normal;
@@ -242,6 +246,10 @@ li {
         line-height: 29px;
         text-align: center;
         color: #F16D7F;
+        transition: all 1s;
+        &:hover {
+            color: white;
+        }
     }
 }
 
@@ -290,6 +298,7 @@ li {
     }
     &__img {
         width: 100%;
+        transition: all 1s;
     }
     &__add {
         position: absolute;
@@ -311,6 +320,7 @@ li {
         justify-content: center;
         gap: 11px;
         color: #FFFFFF;
+        transition: all 1s;
     }
     &__add:hover {
         -webkit-box-shadow: 0 0 5px #fff;
@@ -784,6 +794,7 @@ li {
     background-color: #f8f8f828;
     height: 448px;
     background-size: cover;
+    background-position: bottom;
     &-flex {
         display: flex;
         justify-content: space-between;
@@ -837,6 +848,8 @@ li {
         height: 49px;
         border-radius: 25px 0 0 25px;
         padding-left: 22px;
+        padding-right: 22px;
+        outline: none;
     }
     &-button {
         height: 49px;
@@ -849,6 +862,11 @@ li {
         box-sizing: border-box;
         padding: 15px 20px;
         border-radius: 0 25px 25px 0;
+        transition: all 1s;
+        &:hover {
+            color: #F16D7F;
+            background-color: white;
+        }
     }
 }
 
@@ -875,12 +893,21 @@ li {
     list-style: none;
 }
 
-.icon:hover path {
-    fill: white;
-}
-
-.icon:hover {
-    fill: #F16D7F;
+.icon {
+    &-box {
+        width: 32px;
+        height: 32px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover {
+            background-color: #F16D7F;
+        }
+    }
+    &:hover path {
+        fill: white;
+    }
 }
 
 .visually-hidden {
@@ -936,6 +963,9 @@ li {
             justify-content: space-between;
             &__close {
                 margin-top: 6px;
+                &:hover path {
+                    fill: #F16D7F;
+                }
             }
         }
         &__link {
