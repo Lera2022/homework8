@@ -27,6 +27,10 @@ li {
   list-style-type: none;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 .center {
   padding-left: calc(50% - 570px);
   padding-right: calc(50% - 570px);
