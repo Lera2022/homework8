@@ -506,13 +506,13 @@ li {
 
 .filter {
     width: 100%;
-    padding: 13px 16px 16px;
+    padding: 13px 16px 16px 0;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     position: absolute;
     z-index: 1;
     &__mobile {
-        display: none;
+        visibility: hidden;
     }
     &-box {
         position: relative;
@@ -545,7 +545,6 @@ li {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        gap: 30px;
     }
     &__summary {
         display: -webkit-box;
@@ -598,6 +597,7 @@ li {
     &-box {
         position: relative;
         width: 400px;
+        padding-left: 30px;
     }
     &__summary {
         color: #6F6E6E;
@@ -1521,6 +1521,7 @@ li {
         }
         &__mobile {
             display: block;
+            visibility: visible;
             margin-left: 8px;
         }
         &__summary {
@@ -1533,7 +1534,7 @@ li {
     .sort {
         gap: 24px;
         &-box {
-            margin-left: 62px;
+            margin-left: 50px;
         }
         &__summary {
             font-size: 10px;
